@@ -1,0 +1,82 @@
+table {
+    border-collapse: collapse;
+    /* border: 2px solid rgb(140 140 140); */
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(228 240 245);
+    font-weight: bold;
+  }
+  
+  th,
+  td {
+    /* border: 1px solid rgb(160 160 160); */
+    padding: 8px 10px;
+    text-align: center;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+
+  img.bio {
+    width: 400px;
+    height: 400px;
+    border-style: dotted;
+    border-radius: 100%;
+    }
+  
+  hr.dotted {
+    border-style: dotted none none;
+    border-color: #006769;
+    border-width: 15px;
+    /* background-color: blue; */
+    /* height: 2px; */
+    width: 60%;
+    }
+  
+  h6 {
+    font-size: small;
+    font-weight: lighter;
+    }
+
+  body {
+    background-color: #BACD92;
+    }
+
+  .top-web {
+    border-collapse: collapse;
+    /* border: 2px solid rgb(140 140 140); */
+    font-family: sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    align-content:en;
+    font-weight: bold;
+  }
+
+  h1.greet {
+    font-weight: bold;
+    color: #FF7F3E;
+  }
